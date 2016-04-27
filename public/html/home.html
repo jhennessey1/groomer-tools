@@ -9,17 +9,112 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
 	</head>
 	<body ng-controller="homeController">
-		<div class="container-fluid">
+
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#groomer-tools-navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#"><img src="">LOGO</a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="groomer-tools-navbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Dog Blog</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tool Reviews <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">All Tools</a></li>
+		            <li><a href="#">Scissors</a></li>
+		            <li><a href="#">Clippers</a></li>
+		            <li><a href="#">Dryers</a></li>
+		            <li><a href="#">Dremmels</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Photo Gallery</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Dog Products <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">All Products</a></li>
+		            <li><a href="#">Food & Treats</a></li>
+		            <li><a href="#">Shampoos</a></li>
+		            <li><a href="#">Toys</a></li>
+		            <li><a href="#">Kennels</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 header">
-					<h1>Welcome to Groomer-Tools.com</h1>
-					<h2>Your Source For Advice, Reviews and Opinions On All Things Grooming</h2>
-					<h2>(And Also Stuff About Dogs In General)</h2>
-					<h2>{{greeting}}</h2>
+					<h1>At Groomer-Tools.com,</h1>
+					<h1 class="fancy">Cleanliness is next to Dogliness</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 header">
+					<img src="/images/placeholderLogo.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 header">
+					<h3>Your Source For Grooming Tool Reviews</h3>
+					<h4>From The Biggest Dog Lovers Ever!</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="headerNav">
+						<li><a href="#">Tool Reviews</a></li>
+						<li><a href="#">Dog Blog</a></li>
+						<li><a href="#">Photo Gallery</a></li>
+						<li><a href="#">Other Reviews</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 header">
+					<h1>About Us</h1>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<img src="http://placehold.it/500x275" class="alliPic"> <!-- Alli's Picture -->
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
 
+					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.</p> 
+
+					<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 header">
+					<h1>Don't Forget to tell us what you think!</h1>
+					<button class="btn btn-default" data-toggle="modal" data-target="#contactModal">Send us your feedback!</button>
 				</div>
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

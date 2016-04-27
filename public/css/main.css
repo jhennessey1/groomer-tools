@@ -1,4 +1,26 @@
+body {
+	padding-bottom: 50px;
+}
+
 .header {
-	background-color: rgb(207, 231, 245);
 	text-align: center;
+}
+
+.fancy {
+	font-family: Cursive, Comic Sans MS, sans-serif;
+}
+
+.headerNav {
+	text-align: center;
+	list-style-type: none;
+}
+
+.headerNav li {
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.alliPic {
+	border-radius: 50px;
 }
