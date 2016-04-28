@@ -84,7 +84,7 @@ mongoose.connect('mongodb://localhost/groomer-tools');
 
 app.get('/', function(req, res) {
 	// if(!req.session.count) { req.session.count = 0 }
-	res.sendFile('/html/home.html', {root : './public'})
+	res.sendFile('/html/master.html', {root : './public'})
 })
 
 // app.post('/login', function(req, res, next){
